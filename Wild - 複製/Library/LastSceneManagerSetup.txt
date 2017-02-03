@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/wild1_default/wild_default.unity
-  isLoaded: 1
-  isActive: 1
