@@ -15,7 +15,7 @@ public class GameMain : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		procManager.SwitchProc (startProc);
+		//procManager.SwitchProc (startProc);
 	}
 	
 	// Update is called once per frame

@@ -6,8 +6,7 @@ public class UIManager : MonoBehaviour {
 	
 	public enum UIID
 	{
-		Start=0,
-		Login,
+		Login = 0,
 		Loading,
 		Job,
 		CharName,

@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProcLogin : ProcBase {
+public class ProcLogin : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+		
+	}
 	
-	public override void OnEnter ()
-	{
-		Debug.Log ("I am ProcLogin");
+	// Update is called once per frame
+	void Update () {
+		
 	}
 }
