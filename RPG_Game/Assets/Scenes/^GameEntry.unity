@@ -100,6 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462782541}
   - component: {fileID: 462782540}
+  - component: {fileID: 462782542}
   m_Layer: 0
   m_Name: ProcManager
   m_TagString: Untagged
@@ -115,9 +116,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 462782539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0de53227e5f313043bb7ca6ee0752a45, type: 3}
+  m_Script: {fileID: 11500000, guid: 24e3d79bc843160458c5031573f4bd16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  procs:
+  - {fileID: 462782542}
 --- !u!4 &462782541
 Transform:
   m_ObjectHideFlags: 0
@@ -131,6 +134,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &462782542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462782539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29b7c5241bd05f40b00a1e3ffd10d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1420159361
 GameObject:
   m_ObjectHideFlags: 0
