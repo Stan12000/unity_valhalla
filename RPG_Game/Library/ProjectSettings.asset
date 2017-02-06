@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  productGUID: c8c8bf2547619604a80060abde2c8aeb
+  productGUID: 2943530ce0e240c4ebf9226d80c21f1d
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Wild
+  productName: RPG_Game
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21176471, a: 1}
@@ -191,9 +191,6 @@ PlayerSettings:
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
   appleDeveloperTeamID: 
-  iOSManualSigningProvisioningProfileID: 
-  tvOSManualSigningProvisioningProfileID: 
-  appleEnableAutomaticSigning: 0
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
@@ -263,7 +260,6 @@ PlayerSettings:
   ps4ParamSfxPath: 
   ps4VideoOutPixelFormat: 0
   ps4VideoOutInitialWidth: 1920
-  ps4VideoOutBaseModeInitialWidth: 1920
   ps4VideoOutReprojectionRate: 120
   ps4PronunciationXMLPath: 
   ps4PronunciationSIGPath: 
@@ -286,7 +282,6 @@ PlayerSettings:
   ps4ApplicationParam4: 0
   ps4DownloadDataSize: 0
   ps4GarlicHeapSize: 2048
-  ps4ProGarlicHeapSize: 2560
   ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4UseDebugIl2cppLibs: 0
   ps4pnSessions: 1
@@ -312,9 +307,6 @@ PlayerSettings:
   ps4attribShareSupport: 0
   ps4attribExclusiveVR: 0
   ps4disableAutoHideSplash: 0
-  ps4videoRecordingFeaturesUsed: 0
-  ps4contentSearchFeaturesUsed: 0
-  ps4attribEyeToEyeDistanceSettingVR: 0
   ps4IncludedModules: []
   monoEnv: 
   psp2Splashimage: {fileID: 0}
@@ -386,14 +378,14 @@ PlayerSettings:
   additionalIl2CppArgs: 
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Wild
+  metroPackageName: RPG_Game
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Wild
+  metroApplicationDescription: RPG_Game
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -460,8 +452,9 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudServicesEnabled:
+    UNet: 1
+  cloudProjectId: 3d9fdb2b-1d30-4edc-927c-e47394a0263d
+  projectName: RPG_Game (1)
+  organizationId: ricky0624
   cloudEnabled: 0

@@ -13,6 +13,22 @@ public class UIManager : MonoBehaviour {
 		CharName,
 		ForeWord,
 		Main,
+
+		TOTAL,
 	}
-	
+
+	[SerializeField]
+	UIBase[] uis = new UIBase[(int)UIID.TOTAL - 1];
+
+	public UIBase CreateUI(UIID uiID)
+	{
+		// 1. Get UI file name via UIID
+		// 2. Use UI file name to load UI from resources
+		// 3. GameObject.Instantsiate
+
+		// hint: you may need an array to store ui file names
+
+		// temp, to avoid error
+		return null;
+	}
 }
