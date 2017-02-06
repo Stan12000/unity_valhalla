@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Menus/UILogin.unity
+- path: Assets/Scenes/city/city.unity
   isLoaded: 1
   isActive: 1
