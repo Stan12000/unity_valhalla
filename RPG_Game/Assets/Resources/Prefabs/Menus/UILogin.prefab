@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 224275091390495662}
   - component: {fileID: 222438902770259892}
   - component: {fileID: 114197942994428070}
+  - component: {fileID: 114101277528534284}
   m_Layer: 5
   m_Name: UILogin
   m_TagString: Untagged
@@ -45,6 +46,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &114101277528534284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017601145345016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90dd6b55b88a40943bf4d820b3b2bda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114113477974579656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -149,8 +161,8 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -15, y: -11}
-  m_SizeDelta: {x: -694, y: -135}
+  m_SizeDelta: {x: 330, y: 633}
   m_Pivot: {x: 0.5, y: 0.5}

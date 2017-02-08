@@ -4,17 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Floor
-  - Tree
-  - Door
-  - Door_Found
-  - wild_frame
-  - Temple
-  - Background
-  - Temple_Found
-  - MapBoxColider
-  - Pools
-  - DecTop
+  - login
   layers:
   - Default
   - TransparentFX
@@ -51,34 +41,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: floor
-    uniqueID: 575639751
-    locked: 0
-  - name: wild_frame
-    uniqueID: 3523909997
-    locked: 0
-  - name: BackWalls
-    uniqueID: 3821591355
-    locked: 0
-  - name: Temple_Found
-    uniqueID: 3742452319
-    locked: 0
-  - name: Temples
-    uniqueID: 1454240289
-    locked: 0
-  - name: pools
-    uniqueID: 2174669795
-    locked: 0
-  - name: tree
-    uniqueID: 931625453
-    locked: 0
-  - name: Dec
-    uniqueID: 2611061297
-    locked: 0
-  - name: Door_Found
-    uniqueID: 4052977249
-    locked: 0
-  - name: Door
-    uniqueID: 3758827385
     locked: 0
