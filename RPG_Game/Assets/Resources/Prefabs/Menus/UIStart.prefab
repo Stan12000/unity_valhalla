@@ -21,7 +21,8 @@ GameObject:
   - component: {fileID: 224465088458960702}
   - component: {fileID: 222980115978986834}
   - component: {fileID: 114711079756584058}
-  m_Layer: 5
+  - component: {fileID: 223039334870795308}
+  m_Layer: 0
   m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +39,7 @@ GameObject:
   - component: {fileID: 224799458820510380}
   - component: {fileID: 222271281572704412}
   - component: {fileID: 114636183865598438}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: logo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +76,7 @@ GameObject:
   - component: {fileID: 114495317810384054}
   - component: {fileID: 114203089120032248}
   - component: {fileID: 114964701420546296}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: UIStart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c6a8503fe5679f40827c8de61742240, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: 
+  btn: {fileID: 114052763360754232}
+  loginUI: {fileID: 0}
 --- !u!222 &222271281572704412
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -271,6 +273,25 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1034817919568098}
+--- !u!223 &223039334870795308
+Canvas:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034817919568098}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!223 &223652910641383960
 Canvas:
   m_ObjectHideFlags: 1

@@ -6,18 +6,21 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour {
 
-	string[] fileName = {"UIStart","UILogin","UILoading","UIJob","UICharName","UIForeWord","UIMain"};
+	string[] fileName = {"UIStart","UILogin","UICreateAct","UIForgetPas","UILoading","UIJob","UICharName","UIForeWord","UIMain"};
 	RectTransform rectTrans;
 
 	public enum UIID
 	{
 		Start=0,
 		Login,
+        CreateAct,
+        ForgetPas,
 		Loading,
 		Job,
 		CharName,
 		ForeWord,
 		Main,
+        
 
 		TOTAL,
 	}
@@ -50,4 +53,6 @@ public class UIManager : MonoBehaviour {
 		return uiObj;
 
 	}
+
+   
 }

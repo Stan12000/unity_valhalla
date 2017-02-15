@@ -101,6 +101,7 @@ GameObject:
   - component: {fileID: 462782541}
   - component: {fileID: 462782540}
   - component: {fileID: 462782542}
+  - component: {fileID: 462782543}
   m_Layer: 0
   m_Name: ProcManager
   m_TagString: Untagged
@@ -121,6 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   procs:
   - {fileID: 462782542}
+  - {fileID: 462782543}
 --- !u!4 &462782541
 Transform:
   m_ObjectHideFlags: 0
@@ -147,6 +149,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiManager: {fileID: 0}
   startUI: {fileID: 0}
+  loginUI: {fileID: 0}
+  createActUI: {fileID: 0}
+  forgetPasUI: {fileID: 0}
+--- !u!114 &462782543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462782539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1db476f9fafe4dc49bf7e97df566745d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1335523160
 Prefab:
   m_ObjectHideFlags: 0
